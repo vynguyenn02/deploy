@@ -1,0 +1,100 @@
+/* src/components/SellerPage.css */
+.seller-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a8b77b; /* Màu xanh giống như ảnh */
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    margin-left: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .header-links a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-icons a {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .user-profile {
+    color: #fff;
+  }
+  
+  .breadcrumb {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #555;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .welcome-box {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
+  .welcome-box h2 {
+    color: #64703f;
+  }
+  
+  .welcome-box p {
+    color: #555;
+  }
+  
+  .welcome-box .btn_next {
+    padding: 10px 20px;
+    background-color: #64703f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .welcome-box .btn_next:hover {
+    background-color: #5a653a;
+    color: #fff;
+  }
+

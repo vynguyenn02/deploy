@@ -1,0 +1,95 @@
+.container {
+    padding: 16px;
+   
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 16px;
+}
+
+.filterButtons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.filterButtons button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #4CAF50;
+    background-color: #ffffff;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.activeButton {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.productList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productCard {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.productInfo {
+    flex: 1;
+}
+
+.productName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.variantTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.variantTable th,
+.variantTable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.outOfStock {
+    color: #FF0000;
+}
+
+.editLink {
+    color: #4CAF50;
+    cursor: pointer;
+    text-decoration: underline;
+}
